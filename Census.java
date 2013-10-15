@@ -23,7 +23,7 @@ class Census {
 		if(notNullVotes + nullVotes == voters.size() {
 			return result;
 		} else {
-			return true;
+			throw new Exception("Valid voters has voted more or less than once.");
 		}
 	}
 }
